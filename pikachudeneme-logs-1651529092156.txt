@@ -1,0 +1,10 @@
+2022-05-02T20:19:27.353209+00:00 app[web.1]: Traceback (most recent call last):
+2022-05-02T20:19:27.353226+00:00 app[web.1]:   File "/app/Git.py", line 4, in <module>
+2022-05-02T20:19:27.353319+00:00 app[web.1]:     from flask import Flask, request, jsonify
+2022-05-02T20:19:27.353329+00:00 app[web.1]:   File "/app/.heroku/python/lib/python3.10/site-packages/flask/__init__.py", line 14, in <module>
+2022-05-02T20:19:27.353402+00:00 app[web.1]:     from jinja2 import escape
+2022-05-02T20:19:27.353421+00:00 app[web.1]: ImportError: cannot import name 'escape' from 'jinja2' (/app/.heroku/python/lib/python3.10/site-packages/jinja2/__init__.py)
+2022-05-02T20:19:27.476250+00:00 heroku[web.1]: Process exited with status 1
+2022-05-02T20:19:27.621478+00:00 heroku[web.1]: State changed from starting to crashed
+2022-05-02T20:19:56.305249+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=pikachudeneme.herokuapp.com request_id=b678e288-e97b-4d7c-a385-06c78be941b6 fwd="5.47.38.245" dyno= connect= service= status=503 bytes= protocol=https
+2022-05-02T20:19:56.781148+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=pikachudeneme.herokuapp.com request_id=714c1801-3fe5-4c2d-92e9-7f740ce25105 fwd="5.47.38.245" dyno= connect= service= status=503 bytes= protocol=https
